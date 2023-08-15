@@ -21,8 +21,9 @@ Follow these steps to get the Simple Shell up and running on your local machine:
 
 1. Clone the repository: `git clone https://github.com/Adib-96/holbertonschool-simple_shell.git`
 2. Navigate to the project directory: `cd simple-shell`
-3. Compile the shell: `gcc -o simple-shell shell.c`
-4. Run the shell: `./simple-shell`
+3. Compile the shell: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
+
+4. Run the shell: `./hsh`
 
 # :notebook_with_decorative_cover: compilation
 
