@@ -1,4 +1,4 @@
-<h1 align ="center"> :rocket: Simple Shell </h1>
+<h1 align ="center"> Simple Shell :rocket:  </h1>
 
 Welcome to the Simple Shell project!
 
