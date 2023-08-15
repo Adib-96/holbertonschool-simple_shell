@@ -1,4 +1,4 @@
-# Simple_Shell
+ <h1 align ="center"> :shell: Simple Shell </h1>
 
 ![Shell](https://cdn.dribbble.com/users/94656/screenshots/1141726/media/0c2f17905187e9a34d0aa82e2237ea8b.gif)
 
@@ -18,3 +18,7 @@ Follow these steps to get the Simple Shell up and running on your local machine:
 2. Navigate to the project directory: `cd simple-shell`
 3. Compile the shell: `gcc -o simple-shell shell.c`
 4. Run the shell: `./simple-shell`
+
+# Contributors
+### Rayen jouini
+### Adib Ben Hadada
