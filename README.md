@@ -4,7 +4,7 @@ Welcome to the Simple Shell project! This is a basic implementation of a command
 
 ![Shell](https://cdn.dribbble.com/users/94656/screenshots/1141726/media/0c2f17905187e9a34d0aa82e2237ea8b.gif)
 
-## Features
+## :Fountain: Features
 
 Command execution: Run system commands just like you would in a regular terminal.
 Basic built-in commands: The shell supports a few built-in commands such as cd (change directory) and exit (exit the shell).
