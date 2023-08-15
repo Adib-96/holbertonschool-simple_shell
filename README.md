@@ -1,4 +1,6 @@
-# Simple Shell
+# Simple_Shell
+
+![Shell](https://cdn.dribbble.com/users/94656/screenshots/1141726/media/0c2f17905187e9a34d0aa82e2237ea8b.gif)
 
 Welcome to the Simple Shell project! This is a basic implementation of a command-line shell in C, designed to provide users with a minimalistic yet functional interface for interacting with their operating system. Whether you're a beginner looking to understand the fundamentals of shell programming or an enthusiast who wants to tinker with a simple shell, this project is a great starting point.
 
