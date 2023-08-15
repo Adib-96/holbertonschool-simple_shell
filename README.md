@@ -21,7 +21,7 @@ Follow these steps to get the Simple Shell up and running on your local machine:
 
 # :notebook_with_decorative_cover: compilation
 
-`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
+Compilation: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
 
 # :black_nib: Contributors:
