@@ -1,4 +1,4 @@
- <h1 rocket ="center"> :shell: Simple Shell </h1>
+  <h1 align ="center"> :rocket: Simple Shell </h1>
 
 ![Shell](https://cdn.dribbble.com/users/94656/screenshots/1141726/media/0c2f17905187e9a34d0aa82e2237ea8b.gif)
 
