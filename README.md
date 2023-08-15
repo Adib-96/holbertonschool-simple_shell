@@ -19,6 +19,6 @@ Follow these steps to get the Simple Shell up and running on your local machine:
 3. Compile the shell: `gcc -o simple-shell shell.c`
 4. Run the shell: `./simple-shell`
 
-# Contributors
+# :black_nib: Contributors:
 ### Rayen jouini
 ### Adib Ben Hadada
