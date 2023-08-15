@@ -10,7 +10,7 @@ Command execution: Run system commands just like you would in a regular terminal
 Basic built-in commands: The shell supports a few built-in commands such as cd (change directory) and exit (exit the shell).
 Input and output redirection: Redirect the standard input and output of commands using < and > operators.
 Pipeline support: Chain multiple commands together using the | operator for input-output redirection.
-## Getting Started
+## :full_moon_with_face: Getting Started
 
 Follow these steps to get the Simple Shell up and running on your local machine:
 
