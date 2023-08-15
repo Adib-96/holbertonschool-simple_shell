@@ -2,7 +2,7 @@
 
   <h3 align ="center"> Welcome to the Simple Shell project! </h3> 
 
-![Shell](https://cdn.dribbble.com/users/94656/screenshots/1141726/media/0c2f17905187e9a34d0aa82e2237ea8b.gif)
+<img src="https://cdn.dribbble.com/users/94656/screenshots/1141726/media/0c2f17905187e9a34d0aa82e2237ea8b.gif" alt="Shell">
 
 # :iphone: Simple-_shell:
 
