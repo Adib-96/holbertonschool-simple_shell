@@ -35,12 +35,13 @@ Compilation : `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
 Our shell work like this in interactive mode :
 
--$ ./hsh
--($) /bin/ls
--hsh main.c shell.c
--($)
--($) exit
-$
+    -$ ./hsh
+    ($) /bin/ls
+    hsh main.c shell.c
+    ($)
+    ($) exit
+    $
+
 
 
 # :black_nib: Contributors:
