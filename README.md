@@ -30,8 +30,9 @@ Follow these steps to get the Simple Shell up and running on your local machine:
 # :notebook_with_decorative_cover: compilation
 
 Compilation : `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
-
+#
 # :electric_plug: Testing
+
 
 Our shell work like this in interactive mode :
 
