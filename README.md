@@ -31,7 +31,7 @@ Follow these steps to get the Simple Shell up and running on your local machine:
 
 Compilation : `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
-# Testing
+# :electric_plug: Testing
 
 Our shell work like this in interactive mode :
 
