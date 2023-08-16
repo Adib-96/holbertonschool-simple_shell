@@ -40,7 +40,7 @@ Our shell work like this in interactive mode :
 -hsh main.c shell.c
 -($)
 -($) exit
--$
+$
 
 
 # :black_nib: Contributors:
