@@ -32,14 +32,15 @@ Follow these steps to get the Simple Shell up and running on your local machine:
 Compilation : `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
 # Testing
-Our shell work like this in interactive mode:
+
+Our shell work like this in interactive mode :
 
 -$ ./hsh
-($) /bin/ls
-hsh main.c shell.c
-($)
-($) exit
-$
+-($) /bin/ls
+-hsh main.c shell.c
+-($)
+-($) exit
+-$
 
 
 # :black_nib: Contributors:
