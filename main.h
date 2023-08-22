@@ -4,6 +4,8 @@
 extern char **environ;
 
 #define RAYEN_ADIB_SAMIR 1
+#define BUFFER_SIZE 64
+#define DELIME " \t\r\n\a"
 
 #include <stdbool.h>
 #include <stdio.h>
@@ -17,5 +19,6 @@ int	execute(char *command[]);
 int handel(char *buffer);
 char **lsh_split_line(char *line);
 int main(void);
+char *_getenv(const char *name);
 
 #endif
