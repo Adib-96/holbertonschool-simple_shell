@@ -13,13 +13,13 @@ int execute(char *buffer[])
 
 	if (f == s)
 	{
-		execve(buffer[0], buffer, NULL);
+		execve(buffer[0], buffer, environ);
 	}
 	else
 	{
 		
 		strcat(path, buffer[0]);
-		v = execve(path, buffer, NULL);
+		v = execve(path, buffer, environ);
 	}
 	if (v == -1)
 	{
