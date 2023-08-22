@@ -1,10 +1,14 @@
 #include "main.h"
+/**
+ * handel - handel the command
+ * @buffer: command
+ * Return: status
+*/
 int handel(char *buffer)
 {
 	int f, pid;
 	char **ex = malloc(1024);
 
-	/**wait for user to enter commands */
 	ex = lsh_split_line(buffer);
 	pid = fork();
 	if (pid == -1)
