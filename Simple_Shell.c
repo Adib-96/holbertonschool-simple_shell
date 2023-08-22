@@ -28,7 +28,6 @@ int main(void)
 		}
 		else
 		handel(buffer);
-
-
 	}
+	return (0);
 }

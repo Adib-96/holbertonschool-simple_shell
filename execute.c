@@ -24,6 +24,7 @@ int execute(char *buffer[])
 	if (v == -1)
 	{
 		printf("%s; command not found\n", buffer[0]);
+		free_tokens(buffer);
 	}
 	return (v);
 }

@@ -20,5 +20,6 @@ int handel(char *buffer);
 char **lsh_split_line(char *line);
 int main(void);
 char *_getenv(const char *name);
+void free_tokens(char **tokens);
 
 #endif

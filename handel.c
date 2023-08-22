@@ -21,5 +21,7 @@ int handel(char *buffer)
 	}
 	else
 		wait(NULL);
+	
+	free_tokens(ex);
 	return (f);
 }

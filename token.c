@@ -15,13 +15,14 @@ char **lsh_split_line(char *line)
 	if (!tokens)
 	{
 		perror("Allocation error");
+		free(line);
 		exit(98);
 	}
 
 	token = strtok(line, DELIME);
 	while (token != NULL)
 	{
-		tokens[i] = token;
+		tokens[i] = strdup(token);
 		i++;
 
 		if (i >= bufsize)
@@ -37,6 +38,20 @@ char **lsh_split_line(char *line)
 
 		token = strtok(NULL, DELIME);
 	}
+	free(line);
 	tokens[i] = NULL;
 	return (tokens);
+}
+
+void free_tokens(char **tokens)
+{
+	int i ;
+	if (tokens)
+	{
+		for (i = 0; tokens[i]; i++)
+		{
+			free(tokens[i]);
+		}
+		free(tokens);
+	}
 }
