@@ -17,6 +17,12 @@ Basic built-in commands: The shell supports a few built-in commands such as cd (
 Input and output redirection: Redirect the standard input and output of commands using < and > operators.
 Pipeline support: Chain multiple commands together using the | operator for input-output redirection.
 #
+## :chart_with_downwards_trend: Flowchart
+
+In order to enhance your comprehension of the rationale behind our shell, we kindly request you to review this Flowchart:
+
+
+
 ## :full_moon_with_face: Getting Started
 
 Follow these steps to get the Simple Shell up and running on your local machine:
