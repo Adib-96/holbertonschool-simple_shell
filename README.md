@@ -21,6 +21,8 @@ Pipeline support: Chain multiple commands together using the | operator for inpu
 
 In order to enhance your comprehension of the rationale behind our shell, we kindly request you to review this Flowchart:
 
+![Blank diagram](https://github.com/Adib-96/holbertonschool-simple_shell/assets/135613265/9d171fc5-4bf8-41ee-90a4-08f7550c14f6)
+
 
 
 ## :full_moon_with_face: Getting Started
