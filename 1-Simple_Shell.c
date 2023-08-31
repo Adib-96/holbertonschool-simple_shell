@@ -14,7 +14,7 @@ int main(__attribute__((unused)) int argc, char **argv)
 
 	while (1)
 	{
-		if(isatty(stdin))
+		if(isatty(STDIN_FILENO))
 			printf("$ ");
 		input = _getline();
 
