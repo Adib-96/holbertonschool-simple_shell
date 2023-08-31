@@ -1,25 +1,25 @@
 #ifndef HEADERFILE
 #define HEADERFILE
 
-extern char **environ;
-
-#define RAYEN_ADIB_SAMIR 1
-#define BUFFER_SIZE 64
 #define DELIME " \t\r\n\a"
 
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <sys/stat.h>
 #include <sys/wait.h>
 
 
-int	execute(char *command[]);
-int handel(char *buffer);
-char **lsh_split_line(char *line);
-int main(void);
-char *_getenv(const char *name);
-void free_tokens(char **tokens);
+extern char **environ;
+
+char *_getline(void);
+char **tok_cmd(char *input);
+int exe_cmd(char **cmd, int c, char **argv);
+int path_cmd(char **cmd);
+char *build(char *token, char *value);
+int check_cmd(char *input);
+void _env(void);
+void free_double_pointer(char **pointer);
 
 #endif
