@@ -14,7 +14,8 @@ int main(__attribute__((unused)) int argc, char **argv)
 
 	while (1)
 	{
-		printf("$ ");
+		if(isatty(stdin))
+			printf("$ ");
 		input = _getline();
 
 		if (check_cmd(input) != 0)
